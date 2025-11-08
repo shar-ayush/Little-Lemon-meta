@@ -2,14 +2,16 @@ import * as React from 'react';
 import { StyleSheet, View } from 'react-native';
 import Footer from '../components/Footer';
 import LittleLemonHeader from '../components/LittleLemonHeader';
-import WelcomeScreen from '../WelcomeScreen';
+import MenuItems from '../components/MenuItems';
+// import WelcomeScreen from '../WelcomeScreen';
 
 export default function Index() {
   return (
     <>
       <View style={styles.container}>
         <LittleLemonHeader />
-        <WelcomeScreen />
+        <MenuItems />
+        {/* <WelcomeScreen /> */}
       </View>
       <View style={styles.footerContainer}>
         <Footer />
